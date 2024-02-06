@@ -14,7 +14,7 @@ const HeaderSocials = () => {
       <a href="https://github.com/sheharyar013" target="_blank">
         <FaGithub />
       </a>
-      <a href="https://dribbble.com" target="_blank">
+      <a href="https://phoenix-tech-seven.vercel.app/" target="_blank">
         <FiDribbble />
       </a>
     </div>

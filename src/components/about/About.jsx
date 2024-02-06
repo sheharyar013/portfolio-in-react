@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -23,26 +23,29 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>7+ Years Working</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>200+ worldwide</small>
+              <small>10+ worldwide</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ completed</small>
+              <small>10+ completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            atque architecto similique sint error accusantium tenetur! A
-            quibusdam ad quasi voluptatibus, porro, hic autem iste, dolor fuga
-            eum delectus quia.
+            7+ year Web Dev: PHP, JS, Python Frameworks <br /> 1. Craft
+            user-friendly, responsive websites & apps. <br />
+            2. Experienced in Laravel, React, Django & more. <br /> 3. Clean,
+            efficient code & seamless integrations. <br /> 4. Passionate about
+            innovation & exceeding expectations. <br />
+            <br />
+            Let's discuss your project!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

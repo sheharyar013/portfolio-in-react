@@ -10,8 +10,8 @@ import IMG6 from "../../assets/portfolio6.jpg";
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>What I Did</h5>
+      <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
         <article className="portfolio__item">
@@ -22,7 +22,11 @@ const Portfolio = () => {
 
           <div className="portfolio__item-cta">
             <div>
-              <a href="#" className="btn">
+              <a
+                href="https://github.com/sheharyar013"
+                className="btn"
+                target="_blank"
+              >
                 Github
               </a>
             </div>
@@ -41,7 +45,11 @@ const Portfolio = () => {
           </div>
           <h3>This is portfolio item title</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn">
+            <a
+              href="https://github.com/sheharyar013"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
             <a href="#" className="btn btn-primary" target="_blank">
@@ -56,7 +64,11 @@ const Portfolio = () => {
           </div>
           <h3>This is portfolio item title</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn">
+            <a
+              href="https://github.com/sheharyar013"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
             <a href="#" className="btn btn-primary" target="_blank">
@@ -71,7 +83,11 @@ const Portfolio = () => {
           </div>
           <h3>This is portfolio item title</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn">
+            <a
+              href="https://github.com/sheharyar013"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
             <a href="#" className="btn btn-primary" target="_blank">
@@ -86,7 +102,11 @@ const Portfolio = () => {
           </div>
           <h3>This is portfolio item title</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn">
+            <a
+              href="https://github.com/sheharyar013"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
             <a href="#" className="btn btn-primary" target="_blank">
@@ -101,7 +121,11 @@ const Portfolio = () => {
           </div>
           <h3>This is portfolio item title</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn">
+            <a
+              href="https://github.com/sheharyar013"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
             <a href="#" className="btn btn-primary" target="_blank">

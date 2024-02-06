@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="" className="footer__logo">
-        MANOHAR
+        SHEHARYAR
       </a>
 
       <ul className="permalinks">
@@ -21,34 +21,37 @@ const Footer = () => {
         <li>
           <a href="#experience">Experience</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#services">Services</a>
-        </li>
+        </li> */}
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#testimonials">Testimonials</a>
-        </li>
+        </li> */}
         <li>
           <a href="#contacts">Contacts</a>
         </li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https::/facebook.com">
+        <a
+          href="https://www.facebook.com/share/TpfszsE3LnFuAWKU/?mibextid=QwDbR1"
+          target="_blank"
+        >
           <FaFacebookF />
         </a>
-        <a href="https::/instagram.com">
+        <a href="https://www.instagram.com/mr.sheharyar/" target="_blank">
           <FiInstagram />
         </a>
-        <a href="https::/twitter.com">
+        <a href="https://x.com/shehary33821929" target="_blank">
           <IoLogoTwitter />
         </a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Manu All rights reserved</small>
+        <small>&copy; All rights reserved</small>
       </div>
     </footer>
   );
