@@ -67,4 +67,13 @@ textarea {
   .contact__container {
     width: var(--container-width-sm);
   }
+  .contact__options {
+    flex-direction: column;
+  }
+  article.contact__option {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+  }
 }
