@@ -1,11 +1,11 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/Project1.jpeg";
+import IMG2 from "../../assets/Project2.jpeg";
+import IMG3 from "../../assets/Project3.jpeg";
+import IMG4 from "../../assets/Project4.jpeg";
+import IMG5 from "../../assets/Project5.jpeg";
+import IMG6 from "../../assets/Project1.jpeg";
 
 const Portfolio = () => {
   return (
@@ -18,7 +18,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Magic Clean</h3>
 
           <div className="portfolio__item-cta">
             <div>
@@ -32,7 +32,11 @@ const Portfolio = () => {
             </div>
 
             <div>
-              <a href="#" className="btn btn-primary" target="_blank">
+              <a
+                href="https://magiccleanco.com/"
+                className="btn btn-primary"
+                target="_blank"
+              >
                 Live Demo
               </a>
             </div>
@@ -43,7 +47,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Qabool Hai</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/sheharyar013"
@@ -62,7 +66,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>The Perfect Snack.</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/sheharyar013"
@@ -81,7 +85,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Pakistan's 1ST ICEF.</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/sheharyar013"
@@ -100,7 +104,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Independant Care.</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/sheharyar013"
@@ -109,7 +113,11 @@ const Portfolio = () => {
             >
               Github
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a
+              href="http://independencehomecaresolutions.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
@@ -119,7 +127,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Clean House.</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/sheharyar013"
@@ -128,7 +136,11 @@ const Portfolio = () => {
             >
               Github
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a
+              href="https://magiccleanco.com/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
