@@ -21,7 +21,7 @@ const Portfolio = () => {
           <h3>Magic Clean</h3>
 
           <div className="portfolio__item-cta">
-            <div>
+            {/* <div>
               <a
                 href="https://github.com/sheharyar013"
                 className="btn"
@@ -29,7 +29,7 @@ const Portfolio = () => {
               >
                 Github
               </a>
-            </div>
+            </div> */}
 
             <div>
               <a
@@ -49,13 +49,13 @@ const Portfolio = () => {
           </div>
           <h3>Qabool Hai</h3>
           <div className="portfolio__item-cta">
-            <a
+            {/* <a
               href="https://github.com/sheharyar013"
               className="btn"
               target="_blank"
             >
               Github
-            </a>
+            </a> */}
             <a href="#" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
@@ -68,13 +68,13 @@ const Portfolio = () => {
           </div>
           <h3>The Perfect Snack.</h3>
           <div className="portfolio__item-cta">
-            <a
+            {/* <a
               href="https://github.com/sheharyar013"
               className="btn"
               target="_blank"
             >
               Github
-            </a>
+            </a> */}
             <a href="#" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
@@ -87,13 +87,13 @@ const Portfolio = () => {
           </div>
           <h3>Pakistan's 1ST ICEF.</h3>
           <div className="portfolio__item-cta">
-            <a
+            {/* <a
               href="https://github.com/sheharyar013"
               className="btn"
               target="_blank"
             >
               Github
-            </a>
+            </a> */}
             <a href="#" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
@@ -106,13 +106,13 @@ const Portfolio = () => {
           </div>
           <h3>Independant Care.</h3>
           <div className="portfolio__item-cta">
-            <a
+            {/* <a
               href="https://github.com/sheharyar013"
               className="btn"
               target="_blank"
             >
               Github
-            </a>
+            </a> */}
             <a
               href="http://independencehomecaresolutions.com"
               className="btn btn-primary"
@@ -129,13 +129,13 @@ const Portfolio = () => {
           </div>
           <h3>Clean House.</h3>
           <div className="portfolio__item-cta">
-            <a
+            {/* <a
               href="https://github.com/sheharyar013"
               className="btn"
               target="_blank"
             >
               Github
-            </a>
+            </a> */}
             <a
               href="https://magiccleanco.com/"
               className="btn btn-primary"
